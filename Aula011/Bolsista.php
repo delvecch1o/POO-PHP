@@ -5,7 +5,7 @@ class Bolsista extends Aluno {
     public function renovarBolsa(){
         echo "<p>Bolsa renovada</p>";
     }
-    public function pagarMensalidade() {
+    public function pagarMensalidade() { // metodo sobreposto
         echo "<p>$this->nome é bolsista! Portanto a mensalidade tem desconto</p>";
     }
             
